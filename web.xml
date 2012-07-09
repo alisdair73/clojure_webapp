@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+  <servlet>
+    <servlet-name>clojure_webapp.core/handler servlet</servlet-name>
+    <servlet-class>clojure_webapp.servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>clojure_webapp.core/handler servlet</servlet-name>
+    <url-pattern>/*</url-pattern>
+  </servlet-mapping>
+  <resource-ref>
+    <res-ref-name>jdbc/DefaultDB</res-ref-name>
+    <res-type>javax.sql.DataSource</res-type>
+  </resource-ref>    
+</web-app>

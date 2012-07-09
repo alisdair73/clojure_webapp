@@ -1,0 +1,16 @@
+# clojure_webapp
+
+Implementation of the Netweaver Cloud persistence example using Clojure and the JDBC library
+
+## Usage
+
+Download source and build with lein-ring using uberwar
+Deploy to Netweaver Cloud using the neo command line
+
+Enjoy :)
+
+## License
+
+Copyright (C) 2012 Alisdair Templeton
+
+Distributed under the Eclipse Public License, the same as Clojure.
